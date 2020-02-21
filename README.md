@@ -34,13 +34,38 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    Responsive website is fluid and will adjust to fit any size screen on whatever device is being used. Takes more time to make and uses constraints with % based layouts
+
+	Adaptive websites create breakpoints/layout widths that are hardcoded with pixels that makes it not able to adjust screen size to as many devices.
+
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    Mobile first means that you build a website first for the mobile, then scale up or expand to a layout with a larger width. 
+	General styles created for mobile first, then use min-width media queries to scale up to tablet or desktop 	view with new styles added.
+
+	Desktop first is when you create your general styles for desktop first, the scale down your web layout using max-width media queries to tablet or mobile view adding new styles to each of those views.
+
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    Makes it easier to calculate rem units into pixels. Use 62.5% as a base unit to be able to convert rems into power 	of 10.
+		62.5% of 16 =10.
+ 		1rem =10px
+
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    A preprocessor adds more capabilities to CSS that allows for you to have more control in managing and organizing your CSS. Preprocessing is a script language or syntax unique to the preprocessor that makes use of those extended CSS capabilities.Examples include nesting, making variables, mix-ins
+
+    A preprocessor has its own unique syntax that extends the capabilities of CSS making it easier of you to manage and organize your CSS. Making it easier to modify and add changes to a style in your CSS and writing less code. 
+
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+        Escaping was my favorite concept of preprocessing 
+		the most difficult for me to grasp was the parametric mix-ins
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
