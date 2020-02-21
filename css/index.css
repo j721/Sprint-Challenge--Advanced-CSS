@@ -172,6 +172,9 @@ nav {
   margin-top: 4%;
   box-sizing: border-box;
 }
+.navigation h1 {
+  font-size: 4em;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
