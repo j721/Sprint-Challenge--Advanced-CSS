@@ -284,8 +284,8 @@ footer {
   font-size: 2rem;
   color: white;
   padding-top: 3%;
-  border-radius: 10px;
-  width: 55%;
+  border-radius: 5px;
+  width: 37%;
   text-align: center;
 }
 @media (max-width:500px) {
