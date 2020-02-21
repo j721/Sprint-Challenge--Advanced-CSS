@@ -160,6 +160,17 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.navigation {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
