@@ -1,1 +1,24 @@
 // Mixins Here
+
+.column(){
+    display:flex;
+    flex-direction:column;
+}
+
+
+.centered(){
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-btn(@font-color:white, @button-bg:black){
+    background-color: @button-bg;
+    cursor: pointer;
+    height: 45px;
+    font-size: 2rem;
+    color:@font-color;
+    padding-top:3%;
+    border-radius: 5px;
+    width:37%;
+    }
